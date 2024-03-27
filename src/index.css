@@ -1,0 +1,27 @@
+*,
+html {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+  width: 10px; /* Width of the scrollbar */
+}
+
+/* Track styles */
+::-webkit-scrollbar-track {
+  background: transparent; /* Color of the track */
+}
+
+/* Handle styles */
+::-webkit-scrollbar-thumb {
+  background: #888; /* Color of the handle */
+  border: 2px solid #555; /* Border around the handle */
+  border-radius: 5px; /* Border radius for the handle */
+}
+
+/* Handle hover styles */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; /* Color of the handle on hover */
+}
